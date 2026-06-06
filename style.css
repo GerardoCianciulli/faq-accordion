@@ -10,7 +10,6 @@
     --text-light-grey: hsl(240, 6%, 50%);
     --text-dark-blue: hsl(238, 29%, 16%);
     --text-hover-red: hsl(14, 88%, 65%);
-
 }
 
 *, *::before, *::after {
@@ -165,7 +164,7 @@ h1, .question-group.selected .question{
     font-weight: 700;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     main {
         min-height: unset;
         margin-top: unset;

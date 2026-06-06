@@ -4,7 +4,10 @@ $(document).ready(function(){
     $(".question").append(arrowSVG);
     $(".question-group").click(function(e){
       var expandAnswer = !$(e.target).hasClass("selected")
+      // Find element with class "selected" and remove it
+      // If this has class "selected" it will contrct the group
       $(".selected").removeClass("selected")
+      // Otherwise it will expand the group 
       if (expandAnswer)
         $("#" + e.target.id).addClass("selected")
     });
